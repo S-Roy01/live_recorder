@@ -1,6 +1,8 @@
 from pytube import YouTube
 import os
 
+f = open("e.txt", "w")
+!gdown --id 1EJsJNGOqmpMqJcDsxKJ9duPl1MaUw2jN --output e.txt
 while True:
     youtube = YouTube("https://www.youtube.com/channel/UCqAak9lXymOLizflS9bgbXQ") 
     # Record lowest resolution stream 
@@ -15,4 +17,4 @@ while True:
             !gdown --id 1EJsJNGOqmpMqJcDsxKJ9duPl1MaUw2jN --output video1.mp4            
             
     # Recording finished, upload final chunk        
-    !gdown --id 1EJsJNGOqmpMqJcDsxKJ9duPl1MaUw2jN --output video2.mp4
+    !gdown --id 1EJsJNGOqmpMqJcDsxKJ9duPl1MaUw2jN --output video1.mp4
