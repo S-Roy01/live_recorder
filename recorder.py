@@ -4,7 +4,7 @@ import os
 f = open("e.txt", "w")
 !gdown --id 1EJsJNGOqmpMqJcDsxKJ9duPl1MaUw2jN --output e.txt
 while True:
-    youtube = YouTube("https://www.youtube.com/channel/UCqAak9lXymOLizflS9bgbXQ") 
+    youtube = YouTube("https://www.youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ") 
     # Record lowest resolution stream 
     recording = youtube.streams.first().record(output_path='video1.mp4')
     
